@@ -1,0 +1,13 @@
+#include <iostream>
+
+int main()
+	{
+		int a,b,c,d;
+		
+		a=1; //宣告變數a的值
+        b=2;//宣告變數b的值
+        c=3;//宣告變數c的值 
+        d=4;//宣告變數d的值       
+        
+        return 0;
+	}
