@@ -1,0 +1,16 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	cout<<"test"<<endl;//印出test 
+	
+	return 0;
+}
+
+int main()
+{
+	std::cout <<"test"<<endl;
+	return 0;
+}
