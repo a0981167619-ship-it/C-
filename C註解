@@ -1,0 +1,28 @@
+#include <iostream>
+
+int main()
+	{
+		int x,y,z;
+		x=80; /*宣告x的值*/
+		y=70; /*宣告y的值*/
+		z=90; /*宣告z的值*/
+		
+		return 0; 
+	}
+	
+int main(void)/*呼叫main函數時,無參數但須傳回整數*/ 
+{
+	int N
+	n=2048;//賦予N值
+	
+	return 0;
+	 
+}
+
+void main()//呼叫main函數時,無參數也不傳回任何值
+{
+     int N
+     n=1024;//附於N值
+	 
+}
+	  
