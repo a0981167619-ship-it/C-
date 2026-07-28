@@ -1,0 +1,14 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	int number;
+	number=number+1440; //字面常數 
+	cout<<number<<','; //輸出字面常數 
+	
+	cout<<'a'<<','<<'b'<<','<<'c'; //字元--字面常數 
+	return 0;
+	
+}
