@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int a;
+	a=85;   //先宣告變數,再賦予初始值 
+	cout<<a;
+	
+	int b=78;
+	cout<<','<<b; // 宣告變數並同時賦予初始值
+	
+	return 0; 
+}
