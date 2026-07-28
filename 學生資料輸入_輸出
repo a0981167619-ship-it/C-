@@ -1,0 +1,15 @@
+#include <iostream> 
+using namespace std;
+int main()
+{
+	string Name;
+	string school_Name;
+	
+	cout<<"姓名:";
+	cin>>Name; 
+	
+	cout<<"學號:";
+	cin>>school_Name;
+	
+	return 0;
+}
