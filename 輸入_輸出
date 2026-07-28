@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int N;
+	int n;
+	int x;  //變數初始化 
+	int y;
+	int z;
+	
+	cout<<"請輸入N,n,x,y,z(N,,n,x,y,z)屬於整數:";
+	cin>>N>>n>>x>>y>>z;
+	cout<<N<<','<<n<<','<<x<<','<<y<<','<<z;
+	return 0;
+	
+}
