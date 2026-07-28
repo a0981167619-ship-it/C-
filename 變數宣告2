@@ -18,8 +18,8 @@ int main()
 	
 	cout<<a<<','<<b<<','<<c;
 	
-	int number;
-	int number2=2;
+	int number; //列印出未初始化的number 
+	int number2=2; //列印出已初始化的number2
 	
 	cout<<"變數number的值為:"<<" "<<number;
 	cout<<','<<"變數number2的值為:"<<" "<<number2;
