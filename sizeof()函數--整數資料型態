@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	short int v=0450; //八進位短整數
+	cout<<"v為:"<<v<<endl<<"位元組:"<<sizeof(v)<<endl;
+	
+	signed short int x=0x16; //16進位短整數 
+	cout<<"x為:"<<x<<endl<<"位元組:"<<sizeof(x)<<endl;
+	
+	unsigned int y=0x1697878;
+	cout<<"y為:"<<y<<endl<<"位元組:" <<sizeof(y);
+	
+	return 0;
+	
+	 
+	 
+}
