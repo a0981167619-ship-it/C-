@@ -1,0 +1,16 @@
+#include <iostream> 
+using namespace std;
+#define constant 1 //定義常數為1
+ 
+int main()
+{
+	float length;
+	cout<<"邊長:";
+	cin>>length;
+	cout<<"體積:"<<length*length*length*constant;
+	
+	return 0;
+	 
+	
+	
+}
