@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+const int high=100; //high 以const宣告為常數
+
+int main()
+{
+	float height;
+	cout<<"身高(公分):";
+	cin>>height;
+	
+	cout<<"身高:"<<height/high<<"公尺";
+	return 0;
+	
+	
+}
