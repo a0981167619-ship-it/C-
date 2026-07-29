@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+const int electric_free=5; //electric 以const宣告為常數 
+
+int main()
+{
+	int electrical;
+	cout<<"使用電量:";
+	cin>>electrical;
+	
+	cout<<"電費:"<<electrical*electric_free;
+	return 0;
+	
+}
