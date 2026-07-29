@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+#define number 9 //number宣告為9
+#define number2 5 //number2宣告為5
+	
+int main()
+{
+	int Celsius;
+	int Fahrenheit;
+	
+	cout<<"攝氏溫度:";
+	cin>>Celsius;
+	
+	cout<<"華氏溫度:"<<Celsius*number/number2+32; //使用公式計算 
+	return 0; 
+	
+	 
+}
