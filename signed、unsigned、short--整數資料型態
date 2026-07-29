@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	short int a=45;//縮成兩個位元組 
+	cout<<a<<'\n';
+	
+	signed int b=-45; //有號整數 
+	cout<<b<<'\n';
+	
+	signed short int c=-45;
+	cout<<c<<'\n';
+	
+	unsigned short int d=-45; //無號整數 
+	cout<<d;
+	return 0;
+}
