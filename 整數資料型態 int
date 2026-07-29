@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int num;
+	num=999;//十進位 
+	cout<<"十進位:"<<num<<'\n'; 
+	num=0123; //八進位 
+	cout<<"八進位:"<<num<<'\n'; 
+	num=0x123; //十六進位
+	cout<<"十六進位:"<<num<<'\n';
+	
+	
+	int a;
+	a=28;
+	cout<<"十進位:"<<a<<'\n';
+	a=0456;
+	cout<<"八進位:"<<a<<'\n'; 
+	a=0x8965;
+	cout<<"十六進位:"<<a<<'\n';
+	
+	return 0; 
+	 
+}
