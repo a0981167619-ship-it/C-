@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	float x=7.8f; //宣告為float型態
+	cout<<x<<endl;
+	cout<<"位元組為:"<<sizeof(x)<<'\n';
+	
+	double x2=1.2345698; //宣告為double資料型態 
+	cout<<x2<<endl;
+	cout<<"位元組為:"<<sizeof(x2)<<'\n';
+	
+	long double x3=3.1415926536; //宣告為長倍浮點數資料型態
+	cout<<x3<<endl;
+	cout<<"位元組為:"<<sizeof(x3)<<endl;
+	
+	
+	/*以十進位或科學記號表示*/
+	double volumn=1623.45; //十進位表示法 
+	cout<<volumn<<endl;
+	double volumn2=1.62345e3; //科學記號表示法
+	cout<<volumn2; 
+	return 0;
+	
+}
