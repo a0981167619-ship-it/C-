@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int x=15;
+	float y=121.6;
+	
+    double z=x-y; //浮點數型態
+	cout<<z<<endl;
+	
+	int c=121;
+	char z2='A';
+	int f; //整數型態 
+	f=c+z2;
+	cout<<f<<endl;
+	
+	bool wood=true;
+	int c2=45;
+	int Y;
+	Y=wood*c2;
+	cout<<Y<<endl;
+	
+	bool wood2=false;
+	char z3='D';
+	float number;
+	number=wood2*z3;
+	cout<<number;
+	return 0;
+	
+}
