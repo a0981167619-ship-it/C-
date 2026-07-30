@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	bool a=true; //宣告布林變數,設值為True 
+	cout<<"a:"<<a<<'\n';
+	
+	bool b=1;
+	cout<<"b:"<<b<<'\n';
+	
+	bool c=128;  //128為非零值
+	cout<<"c:"<<c<<'\n';
+	
+	bool d=-1;
+	cout<<"d:"<<d<<endl;
+	
+	bool e=0;
+	cout<<"e:"<<e<<endl;
+	
+	bool f=false;
+	cout<<"f:"<<f<<endl;
+	
+	bool g=c>d; //為布林判斷式
+	cout<<"g:"<<g<<'\n';
+	
+	bool h=b>f;
+	cout<<"h:"<<h;
+	
+	
+	return 0;
+	
+}
