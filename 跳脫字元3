@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	string str="broadcast";
+	cout<<'\"'<<str<<'\"'<<endl; //顯示雙引號
+	string str2="cast";
+	cout<<"\'"<<str2<<"\'"<<endl; //顯示單引號
+	
+	string N="n";
+	cout<<'\\'<<N<<endl; //顯示反斜線 
+	
+	string n="f";
+	cout<<'\\'<<n;
+	return 0;
+	
+}
