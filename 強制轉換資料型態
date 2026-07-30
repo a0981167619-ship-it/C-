@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	float height1,height2,height3,height4,height5;
+	height1=178.9;
+	height2=156.5;
+	height3=180.5;
+	height4=188.6;
+	height5=160;
+	
+	float average;
+	average=height1+height2+height3+height4+height5;
+	cout<<"5人的平均身高為:"<<average/5<<endl; //不轉換資料型態 
+	
+	cout<<"強制型態轉換後的平均身高為:"<<(int)average/5; //強制轉換資料型態 
+	
+	
+	
+	 
+}
