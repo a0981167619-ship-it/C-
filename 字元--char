@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	char x='A'; 
+	cout<<int(x)<<endl; //印出字元A的數值 
+	cout<<x<<endl;
+	
+	char num='X';
+	cout<<int(num)<<endl; //印出字元X的數值 
+	cout<<num<<endl;
+	
+	char y=65; //ASCII碼 
+	cout<<y<<'\n';
+	
+	signed char z=71;
+	cout<<z<<endl;
+	
+	signed char number=-471;
+	cout<<number<<endl;
+	
+	unsigned char num2=100;
+	cout<<num2<<endl;
+	
+	unsigned char num3=-220;
+	cout<<num3;
+	
+	return 0;
+	
+}
