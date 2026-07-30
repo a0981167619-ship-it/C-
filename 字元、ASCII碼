@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	char x='\x156'; //16進位ASCII碼
+	cout<<x<<'\n';
+	cout<<int(x)<<endl;
+	
+	char y=0x23; //16進位數值
+	cout<<y<<endl;
+	
+	char z='\45'; //8進位ASCII碼
+	cout<<z<<endl;
+	cout<<int(z)<<endl;
+	
+	char z2=0152; //8進位數值
+	cout<<z2; 
+	return 0;
+	 
+}
