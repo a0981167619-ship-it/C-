@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	string word="characteristic";
+	char x='C';
+	cout<<word<<'\n'<<x<<'\n'; //換行 
+	
+	string y="character";
+	char y1='A';
+	cout<<y<<'\v'<<y1;  //垂直跳格字元 
+	cout<<'\n';
+	
+	string z="role";
+	char z1='T';
+	cout<<z<<'\f'<<z1; //跳頁字元
+	cout<<'\n';
+	
+	string w="watch";
+	char w1='W';
+	cout<<w<<'\r'<<w1; //返回字元 
+	
+	return 0;
+}
