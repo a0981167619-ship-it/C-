@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int a=8;
+	char x='\0'; //字串結束字元 
+	cout<<int(x)<<'\0'<<'\n'<<a<<endl;
+	
+	char x2=0x00;
+	cout<<int(x2);
+	int a1=587;
+	cout<<a1<<'\b';
+	
+	char alarm='\a'; //警告字元 
+	cout<<alarm<<endl;
+	cout<<int(alarm)<<'\n'; //印出十進位的ASCII碼
+	
+	int back=010;
+	char back2='\b'; //倒退字元 
+	cout<<back<<back2;
+	
+	char jump='A';
+	char spell='B';
+	cout<<jump<<'\t'<<spell; //使用水平跳格字元 
+	
+	
+	return 0;
+}
