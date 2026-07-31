@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	const float PI=3.1415926535; //宣告圓周率數值
+	
+	float radius;
+	cout<<"請輸入圓錐半徑:";
+	cin>>radius;
+	
+	float high;
+	cout<<"請輸入圓錐錐體高度:";
+	cin>>high;
+	
+	float volumn;
+	volumn=1.0/3*PI*(radius*radius)*high;
+	cout<<"圓錐體積:"<<volumn;
+	
+	return 0;
+}
