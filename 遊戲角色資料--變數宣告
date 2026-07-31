@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	string name;
+	cout<<"請輸入玩家名稱:";
+	cin>>name;
+	
+	int rank;
+	cout<<"玩家等級:";
+	cin>>rank;
+	
+	float blood;
+	cout<<"玩家角色血量:";
+	cin>>blood;
+	
+	string P_C;
+	cout<<"角色職業代號:"; 
+	cin>>P_C;
+	
+	string survival;
+	cout<<"是否存活:";
+	cin>>survival;
+	
+	return 0; 
+}
