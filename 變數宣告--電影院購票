@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int price;
+	cout<<"請輸入一張票的價格:";
+	cin>>price;
+
+	int leaf;
+	cout<<"購買張數:";
+	cin>>leaf;
+	
+	string member;
+	cout<<"是否為會員:";
+	cin>>member;
+	
+	int money;
+	money=price*leaf;
+	cout<<"總金額:"<<money; 
+	
+
+	return 0;
+	
+
+	
+}
