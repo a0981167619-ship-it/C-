@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int chemical,math,chinese,english,physical,biology;
+	int total;
+	chemical=90.6;
+	math=93.2;
+	chinese=75;
+	english=95;
+	physical=96.6;
+	biology=88;
+	
+	total=chemical+math+chinese+english+physical+biology;
+	cout<<"總分為:"<<total<<'\n'<<"平均分數為:"<<total/6<<endl;  //不轉換資料型態
+	cout<<"轉換資料型態後的平均分數"<<(double)total/6;
+	return 0;
+}
