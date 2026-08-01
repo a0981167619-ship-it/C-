@@ -12,9 +12,9 @@ int main()
 	cout<<"請輸入圓錐錐體高度:";
 	cin>>high;
 	
-	float volumn;
-	volumn=1.0/3*PI*(radius*radius)*high;
-	cout<<"圓錐體積:"<<volumn;
+	float volume;
+	volume=1.0/3*PI*(radius*radius)*high;
+	cout<<"圓錐體積:"<<volume;
 	
 	return 0;
 }
