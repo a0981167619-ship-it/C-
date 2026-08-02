@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	char blood_type;
+	cout<<"請輸入血型:";
+	cin>>blood_type;
+	
+	char class_code;
+	cout<<"請輸入班級代號:";
+	cin>>class_code;
+	
+	char seat_code;
+	cout<<"請輸入座號代號:";
+	cin>>seat_code;
+	
+	return 0;
+}
