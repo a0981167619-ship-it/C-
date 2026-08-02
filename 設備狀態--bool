@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	bool power; /*輸入1或0*/ 
+	cout<<"電源是否開啟:";
+	cin>>power;
+	
+	bool wifi;
+	cout<<"wifi是否連線:";
+	cin>>wifi;
+	
+	bool charge;
+	cout<<"是否正在充電:";
+	cin>>charge;
+	
+	return 0;
+}
