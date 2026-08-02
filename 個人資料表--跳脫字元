@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	string name;
+	int Class;
+	string number;
+	
+	cout<<"請輸入姓名:"<<'\n';
+	cin>>name;
+	cout<<"請輸入班級:"<<'\n';
+	cin>>Class;
+	cout<<"請輸入學號:"<<'\n';
+	cin>>number;
+	
+	return 0; 
+		
+}
