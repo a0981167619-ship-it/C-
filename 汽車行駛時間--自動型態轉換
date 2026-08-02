@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int distance;
+	cout<<"請輸入行駛距離:";
+	cin>>distance;
+	
+	double speed;
+	cout<<"請輸入平均時速:";
+	cin>>speed;
+	
+	float time;
+	time=distance/speed;
+	cout<<"行駛時間:"<<time<<"小時";
+	
+	return 0; 
+}
