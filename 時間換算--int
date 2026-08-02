@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int second;
+	cout<<"請輸入秒數:";
+	cin>>second;
+	
+	int hour;
+	hour=second/3600;
+	cout<<hour<<"小時";
+	
+	int lave;
+	lave=second%3600;
+	
+	int minute;
+	minute=lave/60;
+	cout<<minute<<"分鐘";
+	
+	int second2;
+	second2=lave%60;
+	cout<<second2<<"秒";
+	
+	return 0;
+}
