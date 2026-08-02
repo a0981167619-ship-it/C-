@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int hundred;
+	cout<<"請輸入100元的張數:";
+	cin>>hundred;
+	
+	int fifty;
+	cout<<"50元個數:";
+	cin>>fifty;
+	
+	int ten;
+	cout<<"10元個數:";
+	cin>>ten;
+	
+	int one;
+	cout<<"1元個數:";
+	cin>>one;
+	
+	int sum;
+	sum=hundred*100+fifty*50+ten*10+one*1; //計算總金額 
+	cout<<"總金額:"<<sum;
+	
+	return 0;
+}
