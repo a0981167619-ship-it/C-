@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int volume;
+	cout<<"請輸入水箱容量:";
+	cin>>volume; /*水箱容量為毫升*/
+	
+	int volume2;
+	cout<<"水箱容量:"<<(float)volume/1000<<"公升"; /*換算水箱容量為公升*/ 
+	
+	return 0; 
+}
