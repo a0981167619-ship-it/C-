@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	float mol;
+	cout<<"請輸入溶質莫耳數:";
+	cin>>mol;
+	
+	float L;
+	cout<<"請輸入溶液體積:";
+	cin>>L;
+	
+	float M;
+	M=mol/L; //計算莫耳濃度 
+	cout<<"莫耳濃度:"<<M<<" M";
+	
+	return 0;
+	 
+}
