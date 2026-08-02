@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	cout<<"*****************"<<'\n';
+	cout<<'\t'; //水平跳格 
+	cout<<"發票"<<'\n';
+	cout<<"*****************"<<'\n';
+	
+	string product;
+	cout<<"商品名稱:";
+	cin>>product;
+	
+	int money;
+	cout<<"商品價格:";
+	cin>>money;
+	
+	
+	int number;
+	cout<<"購買數量:";
+	cin>>number;
+	
+	int total;
+	total=money*number;
+	cout<<"總價格:"<<total<<"元"; 
+	return 0;
+}
