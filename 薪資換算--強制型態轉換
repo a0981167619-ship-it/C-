@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int h_salary=190; //時薪定為190元 
+	
+	float work_hour;
+	cout<<"請輸入工作時數:";
+	cin>>work_hour;
+	
+	float money;
+	money=h_salary*work_hour;
+	cout<<"今日薪資:"<<(int)money<<"元"; //強制轉換資料型態為整數 
+	
+	return 0;
+	
+
+}
