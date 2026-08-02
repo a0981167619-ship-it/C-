@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	float water;
+	cout<<"請輸入用水量:"; //單位為立方公尺 
+	cin>>water;
+	
+	float fee; /*每立方公尺12.5元*/ 
+	fee=water*12.5;// 用水量去乘以每立方公尺的費用
+	cout<<"水費:"<<fee<<"元";
+	
+	return 0;
+	
+}
