@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	float drink=39.5; //一杯飲料39.5元
+	
+	int cup;
+	cout<<"請輸入購買杯數:";
+	cin>>cup;
+	
+	int money;
+	cout<<"請輸入付款金額:";
+	cin>>money;
+	
+	float sum,money2;
+	sum=drink*cup;
+	cout<<"總價格:"<<sum<<"元"<<'\n';
+	
+	money2=money-sum;
+	cout<<"找零:"<<money2<<"元";
+	
+	return 0;
+	 
+}
