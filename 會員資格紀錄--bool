@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	bool member; //輸入1或0 
+	cout<<"是否為會員:";
+	cin>>member;
+	
+	bool discount;
+	cout<<"是否有折扣資格:";
+	cin>>discount;
+	
+	return 0;
+}
