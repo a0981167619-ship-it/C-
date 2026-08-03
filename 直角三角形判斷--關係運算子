@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	float a,b,c; //設定三角形的三邊長為a,b,c 
+	cout<<"請輸入a:";
+	cin>>a;
+	cout<<"請輸入b:";
+	cin>>b;
+	cout<<"請輸入c:";
+	cin>>c;
+	
+	//判斷是否為直角三角形
+	cout<<"是否為直角三角形:"<<(a*a+b*b==c*c)<<'\n';
+	
+	//判斷是否為正三角形
+	cout<<"是否為正三角形:"<<(a==b==c)<<endl;
+	
+	//判斷第一邊是否大於第二邊
+	cout<<"第一邊大於第二邊:"<<(a>b);
+	
+	return 0;
+}
