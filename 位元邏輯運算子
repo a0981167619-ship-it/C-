@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int mode=9;
+	bool sound;
+	sound=mode&(1<<0);  //查看第0個位元 
+	cout<<"音量增加是否開啟:"<<sound<<'\n'; //輸出後為1: 代表開啟,輸出後為0: 代表關閉
+	
+	bool s_decrease;
+	s_decrease=mode&(1<<1); //查看第一個位元
+	cout<<"音量減少是否開啟:"<<s_decrease<<endl;
+	
+	bool silence;
+	silence=mode&(1<<2); //查看第二個位元 
+	cout<<"是否開啟靜音:"<<silence<<'\n';
+	
+	bool game;
+	game=mode|(1<<3);
+	cout<<"是否開啟遊戲模式:"<<game;  //開啟某個模式 
+	
+	return 0; 
+}
