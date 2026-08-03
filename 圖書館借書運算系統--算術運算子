@@ -1,0 +1,43 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int b_book;
+	cout<<"請輸入借閱書本數量:";
+	cin>>b_book;
+	
+	int e_rent;
+	cout<<"每本書每天租金:";
+	cin>>e_rent;
+	
+	int day;
+	cout<<"借閱天數:";
+	cin>>day;
+	
+	int money;
+	cout<<"請輸入支付金額:";
+	cin>>money;
+	
+	int day_rent;
+	day_rent=b_book*e_rent;
+	cout<<"一天的總租金:"<<day_rent<<'\n';
+	
+	
+	
+	int all_fee;
+	int other_fee=20;//手續費20元
+	all_fee=e_rent*day*b_book+other_fee;
+	cout<<"全部借閱費用:"<<all_fee<<'\n';
+	
+	int day_cost;
+	day_cost=all_fee/day;
+	cout<<"平均每天花費:"<<day_cost<<endl;
+	
+	int pocket_money;
+	pocket_money=money-all_fee;
+	cout<<"找零:"<<pocket_money;
+	
+	return 0;
+	
+	
+}
