@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+const float PI=3.1415926535;
+int main()
+{
+	float radius;
+	cout<<"請輸入圓柱半徑 (cm):";
+	cin>>radius;
+	
+	float high;
+	cout<<"請輸入圓柱高度 (cm):";
+	cin>>high;
+	
+	float area1;
+	area1=PI*radius*radius; //計算圓柱底面積 
+	cout<<"圓柱底面積:"<<area1<<" 平方公分"<<'\n';
+	
+	float area2;
+	area2=2*PI*radius*high; //計算圓柱側面積
+	cout<<"圓柱側面積:"<<area2<<" 平方公分"<<'\n';
+	
+	float total_area;
+	total_area=2*area1+area2;  //計算圓柱總表面積
+	cout<<"圓柱總表面積:"<<total_area<<" 平方公分";
+	
+	return 0;
+	
+	 
+}
