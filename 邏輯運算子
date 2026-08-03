@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int a,b,c;
+	cout<<"請輸入a(整數):";
+	cin>>a;
+	cout<<"請輸入b(整數):";
+	cin>>b;
+	cout<<"請輸入c(整數):";
+	cin>>c;
+	
+	bool result; //輸出1為True,輸出0為False 
+	result=b<=a && a<=c;
+	cout<<"a介於b和c之間(包含端點):"<<result<<endl;
+	
+	bool result2;
+	result2=(a+b+c)%2==0;
+	cout<<"a+b+c是偶數:"<<result2<<endl;
+	
+	bool result3;
+	result3=a%10==0||b%10==0||c%10==0;
+	cout<<"a、b、c三個數中,至少有一個是10的倍數:"<<result3;
+	
+	return 0; 
+}
