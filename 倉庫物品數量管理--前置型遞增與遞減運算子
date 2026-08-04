@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int item;
+	cout<<"請輸入倉庫目前的物品數量:";
+	cin>>item;
+	
+	++item; //使用前置型遞增運算子 
+	cout<<"新貨到達:"<<item<<'\n'; //新貨到達,物品數量加1
+	
+	++item;
+	++item; //物品數量加3 
+	++item;
+	cout<<"連續收到3次貨物:"<<item<<endl; 
+	
+	--item; //使用前置型遞減運算子 
+	cout<<"客人購買後的物品數量:"<<item<<endl;
+	
+	--item;
+	--item;
+	cout<<"連續賣出兩件商品:"<<item<<'\n';
+	cout<<"最後剩餘物品數量為:"<<item;
+	
+	return 0;
+	
+}
