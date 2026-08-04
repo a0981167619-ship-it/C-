@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int coin;
+	cout<<"請輸入目前擁有的金幣數量:";
+	cin>>coin;
+	
+	++coin; //使用前置型遞增運算子 
+	cout<<"打敗怪物,獲得一枚金幣:"<<coin<<'\n';
+	
+	++coin;
+	++coin;
+	++coin;
+	++coin;
+	cout<<"連續打敗4隻怪物:"<<coin<<endl;
+	
+	--coin; //使用前置型遞減運算子 
+	cout<<"購買道具,花費一枚金幣:"<<coin<<'\n';
+	
+	--coin;
+	--coin;
+	--coin;
+	cout<<"連續購買三次道具:"<<coin<<endl;
+	
+	cout<<"最後金幣數量:"<<coin;
+	
+	return 0;
+}
