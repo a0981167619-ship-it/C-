@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int people;
+	cout<<"請輸入目前的排隊人數:";
+	cin>>people;
+	
+	people++; //使用後置型遞增運算子 
+	cout<<"加入一位新客人:"<<people<<'\n';
+	
+	people++;
+	people++;
+	people++;
+	cout<<"連續加入三位新客人:"<<people<<'\n';
+	
+	cout<<"最後總排隊人數為:"<<people;
+	
+	return 0; 
+	
+	
+}
