@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int a;
+	cout<<"請輸入一個整數:";
+	cin>>a;
+	
+	int left;
+	left=(a<<4); //將a向左移4
+	
+	int right;
+	right=(a>>3);  //將a向右移3
+	
+	int sum;
+	sum=left+right; //將兩者移動後的結果相加
+	cout<<"移動後相加:"<<sum;
+	
+	return 0;
+}
