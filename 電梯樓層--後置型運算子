@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int floor;
+	cout<<"請輸入目前所在樓層:";
+	cin>>floor;
+	
+	floor++; //使用後置型遞增運算子 
+	cout<<"上升一層:"<<floor<<endl;
+	
+	floor++;
+	floor++;
+	floor++;
+	cout<<"連續上升三層:"<<floor<<'\n';
+	
+
+	floor--; //使用後置型遞減運算子 
+	cout<<"下降一層:"<<floor<<endl;
+	
+	floor--;
+	floor--;
+	cout<<"連續下降兩層:"<<floor<<'\n';
+	cout<<"最後所在樓層為:"<<floor;
+	
+	return 0; 
+	 
+	 
+}
