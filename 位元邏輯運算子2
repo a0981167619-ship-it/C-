@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+int main()
+/* 第0位:電燈
+第1位:冷氣
+第2位:電風扇
+第3位:電視
+第4位:熱水器*/ 
+{
+	int device=10;
+	bool light;
+	light=device|(1<<0); 
+	cout<<"開啟電燈:"<<light<<endl; //輸出1為開啟,輸出0為未開啟 
+	
+	bool  air_conditioner;
+	air_conditioner=device&(1<<1);
+	cout<<"冷氣是否開啟:"<<air_conditioner<<endl;
+	
+	bool hot_water_e;
+	hot_water_e=device&(1<<4);
+	cout<<"熱水器是否開啟:"<<hot_water_e<<endl;
+	
+	bool television;
+	television=device^(1<<3);
+	cout<<"電視是否開啟:"<<television<<'\n';
+	
+	bool fan;
+	fan=device&~(1<<2);
+	cout<<"電風扇是否開啟:"<<fan;
+	
+	return 0;
+}
