@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int number;
+	cout<<"請輸入一個整數:";
+	cin>>number;
+	
+	int left;
+	left=(number<<3); //將number左移三位
+	cout<<"左移三位後的結果:"<<left;
+	cout<<'\n';
+	
+	int right;
+	right=(number>>2); //將number右移兩位
+	cout<<"右移兩位後的結果:"<<right;
+	
+	
+}
