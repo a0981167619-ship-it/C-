@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	double price=500;  //商品原價
+	
+	//商品特賣活動期間發生的事件 
+	price+=100;
+	cout<<"漲價100元:"<<price<<'\n';
+	price*=0.9;
+	cout<<"商品打9折:"<<price<<endl;
+	price+=50;
+	cout<<"運費增加50元:"<<price<<endl;
+	
+	cout<<"最後商品價格為:"<<price;
+	return 0;
+	
+}
