@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int a,b;
+	cout<<"請輸入a(整數):";
+	cin>>a;
+	cout<<"請輸入b(整數):";
+	cin>>b;
+	
+	(a>b)? cout<<"a>b"<<endl //判斷a是否大於b 
+	       :cout<<"b>a";
+	return 0;
+}
