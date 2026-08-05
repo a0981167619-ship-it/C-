@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	double g=9.8;
+	double t;
+	cout<<"請輸入物體落下所經過的時間:";
+	cin>>t;
+	double velocity;
+	velocity=g*t;
+	cout<<"自由落體速度為:"<<velocity<<" m/s";
+	return 0;
+}
