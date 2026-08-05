@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int x=16;
+	int y=2;
+	x&=y; //進行and位元指定運算 
+	cout<<"x&=y: "<<x<<endl;
+	
+	x|=y; //進行or位元指定運算 
+	cout<<"x|=y: "<<x<<endl;
+	
+	x^=y; //進行not位元指定運算
+	cout<<"x^=y: "<<x<<'\n';
+	
+	x<<=y; //位元左移指定運算
+	cout<<"x<<=y: "<<x<<'\n';
+	
+	x>>=y; //位元右移指定運算
+	cout<<"x>>=y: "<<x<<endl;
+	
+	return 0;
+}
+
+
+	
