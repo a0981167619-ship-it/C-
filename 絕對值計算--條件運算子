@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int x;
+	cout<<"請輸入一個整數:";
+	cin>>x;
+	
+	(x<0)? cout<<"絕對值為:"<<(x*x)/-x //判斷x是否小於0 
+	      : cout<<"絕對值為:"<<x;
+	
+	return 0;
+}
