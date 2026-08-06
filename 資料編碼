@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int data=5;
+	
+	int result1;
+	result1=data<<3;
+	cout<<"將data左移3位(數值):"<<result1<<'\n';
+	
+	int result2;
+	result2=data>>1;
+	cout<<"將data右移1位(數值):"<<result2;
+	
+	return 0;
+}
