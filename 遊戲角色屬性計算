@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	//註: 1.角色完成任務時，系統會： 先提升等級，再將提升後的等級作為任務獎勵數值
+	    //2.任務完成後，經驗倍率增加 1
+	    //3.下一場戰鬥開始前，等級會降低 1（暫時降級效果）
+ 
+	int rank=15;
+	int experience=1;
+	
+	++rank;
+	cout<<"角色提升後的等級為:"<<rank<<'\n';
+	
+	++experience;
+	cout<<"角色任務完成後的經驗倍率為:"<<experience<<endl;
+	
+	--rank;
+	cout<<"角色暫時降級後的等級為:"<<rank; 
+	
+	return 0;
+	
+	
+	
+	
+}
