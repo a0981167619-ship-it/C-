@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int sensor=10;
+	int check=12;
+	
+	int identical;
+	identical=sensor&check;
+	cout<<"兩個狀態共同啟動的位元:"<<identical<<'\n';
+	
+	int all;
+	all=sensor|check;
+	cout<<"兩個狀態全部開啟的位元:"<<all<<endl;
+	
+	int reverse;
+	reverse=~(sensor);
+	cout<<"反轉sensor的所有位元:"<<reverse;
+	
+	return 0;
+}
