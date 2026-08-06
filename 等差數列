@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	float a1;
+	cout<<"請輸入等差數列第一項:";
+	cin>>a1;
+	
+	float d;
+	cout<<"請輸入公差:";
+	cin>>d;
+	
+	float n;
+	cout<<"請輸入要求的項數:";
+	cin>>n;
+	
+	float an;
+	an=a1+(n-1)*d;
+	
+	cout<<"第n項的值為:"<<an;
+	
+	return 0;
+}
