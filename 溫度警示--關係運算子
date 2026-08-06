@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	double temperature=35.5;
+	bool hot;
+	hot=temperature>30;
+	cout<<"溫度是否超過30度:"<<hot<<'\n';  //輸出1為是,輸出0則為否 
+	
+	bool cold;
+	cold=temperature<=20; 
+	cout<<"溫度是否低於或等於20度:"<<cold<<endl;
+	
+	bool same;
+	same=temperature=30;
+	cout<<"溫度是否剛好等於35.5度:"<<same;
+	
+	return 0;
+	
+	
