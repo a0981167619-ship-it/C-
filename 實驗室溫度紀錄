@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	//註:某實驗室目前設定溫度為 25 度。
+        //實驗開始時，儀器會先記錄目前溫度，接著將溫度調高 1 度。
+       //第二次紀錄時，儀器會先將溫度調高 1 度，再記錄新的溫度。
+      //實驗結束前，儀器會先記錄目前溫度，接著將溫度降低 1 度。 
+      
+    int temperature=25;
+    cout<<"目前實驗室的溫度為:"<<temperature<<'\n';
+    
+    temperature++;
+    cout<<"第一次紀錄時的溫度:"<<temperature<<endl;
+
+    temperature++;
+    cout<<"第二次紀錄時的溫度:"<<temperature<<endl;
+    
+    temperature--;
+    cout<<"結束前紀錄的溫度:"<<temperature<<'\n';
+    
+    cout<<"最後的溫度為:"<<temperature;
+    
+    return 0;
+    
+    
+    
+	 
+}
