@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	float Voltage;
+	cout<<"請輸入電壓:";
+	cin>>Voltage;
+	
+	float resistance;
+	cout<<"請輸入電阻:";
+	cin>>resistance;
+	
+	float current;
+    current=Voltage/resistance;
+	cout<<"電流為:"<<current<<" 安培";
+	
+	return 0;
+}
