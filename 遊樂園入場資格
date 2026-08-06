@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	//遊樂園規定:  1.年齡滿12歲以上且身高滿140公分才可以玩某遊樂設施   2.只要未滿12歲或身高不足140公分,就需要家長陪同
+	
+	int age;
+	cout<<"請輸入年齡:";
+	cin>>age;
+	
+	int height;
+	cout<<"請輸入身高(cm) :";
+	cin>>height;
+	
+	bool can_play;
+	can_play=age>=12&&height>140;
+	cout<<"是否符合自己遊玩的資格:"<<can_play<<'\n'; //輸出1為是,輸出0則為否
+	
+	bool need_parent;
+	need_parent=age<12||height<140;
+	cout<<"是否需要家長陪同才可遊玩:"<<need_parent;
+	
+	return 0;
+	 
+	
+	
+	
+}
