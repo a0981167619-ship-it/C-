@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int a,b,c;
+	cout<<"請輸入a(整數):";
+	cin>>a;
+	cout<<"請輸入b(整數):";
+	cin>>b;
+	cout<<"請輸入c(整數):";
+	cin>>c;
+	
+	int D;
+	D=(b*b)-4*a*c;
+	
+	cout<<"數值為:"<<D;
+	
+	return 0;
+}
