@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int x=13;
+	int y=5;
+	
+	int result1;
+	result1=x&y;
+	cout<<"13&5 --數值:"<<result1<<endl;
+	
+	int result2;
+	result2=x|y;
+	cout<<"13|5 --數值:"<<result2<<'\n';
+	
+	int result3;
+	result3=x^y;
+	cout<<"13^5 --數值:"<<result3;
+	
+	return 0;
+}
