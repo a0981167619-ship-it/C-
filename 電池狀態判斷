@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    float battery=0.18;  //代表電量為18% 
+    
+    (battery<0.2)?  cout<<"電池狀態為: 需要充電"<<endl  //代表電量低於20%
+	               :cout<<"電池狀態為: 電量正常";
+	                
+	return 0;
+
+}
+	 
+ 
