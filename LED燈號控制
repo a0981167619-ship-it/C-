@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main()
+{   
+ //註: 每左移1位代表增加一組控制位元,每右移1位代表降低一組控制位元 
+	int light=3;
+	int expand;
+	expand=light<<2;
+	cout<<"將目前燈號狀態擴展2個位元位置:"<<expand<<endl;
+	
+	int reduce;
+	reduce=light>>1;
+	cout<<"將目前燈號狀態縮減1個位元位置:"<<reduce;
+	
+	return 0;
+ } 
