@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	//某銀行ATM提款規則: 1.帳戶啟用狀態為True且餘額至少1000元,才可以提款
+	                  /* 2.如果帳戶未啟用或餘額不足1000元,就不能提款*/
+					  
+	bool active=1;
+	int money=800;
+	
+	bool withdraw;
+	withdraw=active==1 && money>=1000; 
+	cout<<"是否可以提款:"<<withdraw<<endl;  //輸出1為可以提款,輸出0則無法提款
+	
+	bool deny;
+	deny=active=0|| money<1000;
+	cout<<"是否不能提款:"<<deny<<'\n';
+	
+	bool not_active;
+	not_active=!(active);
+	cout<<"帳戶是否未啟用:"<<not_active;
+	
+	return 0;
+}
