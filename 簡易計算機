@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	float x;
+	float y;
+	cout<<"請輸入x:";
+	cin>>x;
+	
+	cout<<"請輸入y:";
+	cin>>y;
+	
+	char symbol;
+	cout<<"請輸入一個運算符號:";
+	cin>>symbol;
+	
+	if(symbol=='+')
+    	cout<<"x+y:"<<x+y<<endl;
+    	
+    else if(symbol=='-')
+        cout<<"x-y:"<<x-y<<'\n';
+        
+    else if(symbol=='*')
+        cout<<"x*y:"<<x*y<<endl;
+        
+    else if(symbol=='/')
+        cout<<"x/y:"<<x/y<<'\n';
+        
+    else
+        cout<<"無效的運算符號";
+        
+    return 0;
+}
