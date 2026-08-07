@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int flow;
+	cout<<"請輸入本月使用的網路流量(GB): ";
+	cin>>flow;
+	
+	if(flow<50)
+	   cout<<"基本方案";
+	   
+	else if(flow>=50 && flow<200)
+	   cout<<"一般方案";
+	   
+	else if(flow>=200 && flow<500)
+	   cout<<"高用量方案";
+	   
+	else
+	    cout<<"超大量使用方案";
+	    
+    return 0;
+}
