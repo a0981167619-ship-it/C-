@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	float speed;
+	cout<<"請輸入車子的行駛速度(km/h): ";
+	cin>>speed;
+	
+	if(speed>60)
+	  cout<<"超速";
+	else
+	  cout<<"速度正常";
+	  
+	return 0;
+}
