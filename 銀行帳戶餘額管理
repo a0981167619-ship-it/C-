@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	//某人的銀行帳戶目前有 8000 元
+	int account=8000;
+	/*今天依序發生：
+                   1.薪水入帳 3500 元
+                   2.繳交帳單 1200 元
+                   3.購買生活用品花費 900 元
+                   4.銀行收取手續費，使餘額減少 100 元*/
+    
+    account+=1000;
+    cout<<"薪水入帳1000元:"<<account<<'\n';
+    account-=1200;
+    cout<<"繳交帳單1200元:"<<account<<endl;
+    account-=900;
+    cout<<"購買生活用品花費900元:"<<account<<'\n';
+    account-=100;
+    cout<<"銀行收取手續費,使餘額減少100元:"<<account;
+    
+    return 0;
+}
