@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int x;
+	int y;
+	
+	cout<<"請輸入一個點的座標x: ";
+	cin>>x;
+	cout<<"請輸入一個點的座標y: ";
+	cin>>y;
+
+	
+	if(x>0 && y>0)
+	  cout<<"第一象限";
+	  
+	if(x<0 && y>0)
+	cout<<"第二象限";
+	
+	if(x<0 && y<<0)
+	cout<<"第三象限";
+	
+	if(x>0 && y<0)
+	cout<<"第四象限";
+	
+	return 0; 
+}
