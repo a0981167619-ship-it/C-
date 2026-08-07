@@ -1,0 +1,40 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int salary;
+	cout<<"請輸入薪水:";
+	cin>>salary;
+	
+	if(salary<30000)
+	{
+		int award;
+		int sum;
+		award=salary*0.05;  //獎金為薪資的5%
+		sum=salary+award; //總薪資=獎金+薪資 
+		cout<<"獎金: "<<award<<endl;
+		cout<<"總薪資: "<<sum;
+	}
+	
+	else if(salary>=30000 && salary<60000)
+	{
+		int award;
+		int sum;
+		award=salary*0.1; //獎金為薪資的10%
+		sum=salary+award;
+		cout<<"獎金: "<<award<<endl;
+		cout<<"總薪資: "<<sum;
+	}
+	
+	else
+	{
+		int award;
+		int sum;
+		award=salary*0.15; //獎金為薪資的15%
+		sum=salary+award;
+		cout<<"獎金:"<<award<<'\n';
+		cout<<"總薪資: "<<sum; 
+	}
+	
+	return 0;
+}
