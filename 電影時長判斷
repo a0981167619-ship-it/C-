@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int time;
+	cout<<"請輸入某部電影的時長:";
+	cin>>time;
+	
+	(time>120)? cout<<"長片"<<endl
+	           :cout<<"一般";
+	           
+	return 0;
+}
