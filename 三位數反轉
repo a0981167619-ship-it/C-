@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int x;
+	cout<<"請輸入一個三位數的整數:";
+	cin>>x;
+	
+	int y;
+	y=(x/100); //將三位數除以100,取得百位數字 
+	int z;
+	z=(x%100)/10; //取餘數再除以10,得到十位數字 
+	int q;
+	q=(x%100)%10;  //先跟100取餘數,再跟10取餘數,得到個位數字 
+	
+	cout<<"反轉後的三位數為:"<<q<<z<<y; //三位數字重新排列 
+	return 0; 
+	
+}
