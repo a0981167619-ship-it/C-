@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int capacity;
+	cout<<"請輸入電腦硬碟剩餘容量(GB): ";
+	cin>>capacity;
+	
+	if(capacity<50)
+	    cout<<"儲存空間不足";
+	    
+	if(capacity>=500)
+	    cout<<"容量充足";
+	
+	return 0;
+}
