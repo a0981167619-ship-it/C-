@@ -1,0 +1,38 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	char selection;
+	
+	cout<<"(A): 飲料/35元"<<'\n';
+	cout<<"(B): 麵包/45元"<<'\n';
+	cout<<"(C): 便當/80元"<<endl;
+	cout<<"(D): 餅乾/30元"<<endl;
+	cout<<"(E): 泡麵/25元"<<endl;
+	cin>>selection;
+	
+	switch(selection)
+	{
+		case 'A': //選項有英文字母大小寫之分 
+			cout<<"飲料 $35"<<endl;
+			break;
+		case 'B':
+			cout<<"麵包 $40"<<endl;
+			break;
+		case 'C':
+			cout<<"便當 $80"<<'\n';
+			break;
+		case 'D':
+			cout<<"餅乾 $30"<<'\n';
+			break;
+		case 'E':
+			cout<<"泡麵 $25"<<endl;
+			break;
+			
+	default: //如果selection不等於A、B、C、D、E任何一個字母
+	       cout<<"查無此商品"<<'\n';
+	       
+	
+	return 0;
+	}
+}
