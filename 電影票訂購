@@ -1,0 +1,35 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	char choose;
+	cout<<"(1): 一般票/300元"<<endl;
+	cout<<"(2): 學生票/240元"<<'\n';
+	cout<<"(3): 兒童票/180元"<<endl;
+	cout<<"(4): 敬老票/150元"<<'\n';
+	cin>>choose;
+	
+	switch(choose)
+	{ 
+	  case '1':
+	  	cout<<"一般票 $300"<<endl;
+	  	break;
+	  	
+	  case '2':
+	  	cout<<"學生票 $240"<<'\n';
+	  	break;
+	  
+	  case '3':
+	  	cout<<"兒童票 $180"<<'\n';
+		break;
+		
+	  case '4':
+	  	cout<<"敬老票 $150"<<endl;
+		break;
+	  
+	  default:
+		   cout<<"無效的票種";
+	 }
+	return 0;
+	
+}
