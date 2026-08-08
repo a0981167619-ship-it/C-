@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int a,b;
+	for(a=1;a<=10;a++) //第一層迴圈,取出數字1-10 
+	{
+		for(b=1;b<=10;b++) //第二層迴圈,取出數字1-10 
+		{
+			cout<<a<<"*"<<b<<"="<<a*b<<" ";
+		}
+		cout<<'\n'; //換行 
+	}
+	return 0;
+}
