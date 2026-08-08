@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int a,sum=0;
+	for(a=1;a<=100;a++)
+	   if(a%2==0) //找1-100中,為2的倍數的數字 
+	      sum+=a;
+	   
+	   cout<<"2+4+6+8...+100: "<<sum;
+	   return 0;
+}
