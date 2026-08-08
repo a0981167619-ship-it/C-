@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int x,y;
+	for(x=1;x<=5;x++) //第一層for迴圈 
+	{
+		for(y=1;y<=5;y++) //第二層for迴圈
+		{
+		 
+		   cout<<x<<"*"<<y<<"="<<x*y<<" ";
+		   }
+		   
+	
+	cout<<endl; //換行
+    }
+	
+	return 0; 
+}
