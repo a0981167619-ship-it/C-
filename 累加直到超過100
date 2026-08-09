@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int x,sum=0,i=1;
+	cout<<"請輸入一個正整數:";
+	cin>>x;
+	
+	do
+	{
+		sum+=i;
+		cout<<"總和為:"<<sum;
+		i++; //每執行一次迴圈,則加一 
+		cout<<endl; //換行 
+		
+	}while(i<=x && sum<100); //當總和超過100時,則停止累加 
+	
+	return 0;
+}
