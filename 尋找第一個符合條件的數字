@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int x,i=1;
+	cout<<"請輸入一個正整數:";
+	cin>>x;
+	
+	for(i=1;i<=x;i++)
+	{
+		if(i%4==0 && i%6==0) //找4或6的倍數 
+		{
+			cout<<"第一個符合此條件的數字為:"<<i; 
+			break; //跳出此迴圈 
+			
+		}
+	}
+	return 0;
+}
