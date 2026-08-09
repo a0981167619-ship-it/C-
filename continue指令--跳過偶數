@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int number,i=1;
+	cout<<"請輸入一個正整數:";
+	cin>>number;
+	
+	for(i=1;i<=number;i++)
+	{
+		if(i%2==0)
+		  continue; //跳過能被2整除的數字
+		
+		cout<<"奇數:"<<i;
+		cout<<endl; //換行 
+	}
+	return 0; 
+}
