@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int a,sum=0,j=1;
+	cout<<"請輸入一個正整數:";
+	cin>>a;
+	
+	while(j<=a)
+	{
+		sum+=j*a;
+		cout<<"累加總和為:"<<sum;
+		j++; //執行迴圈一次則加一 
+		
+		cout<<endl; //換行 
+	}
+	
+	return 0;
+}
