@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int c;
+	
+	do{
+		cout<<"請輸入一個正整數:";
+	    cin>>c;
+		
+	}while(c<0); //c只要小於0,就會執行此迴圈 
+	
+	return 0;
+}
