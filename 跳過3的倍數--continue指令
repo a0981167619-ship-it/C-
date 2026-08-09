@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int y,i=1,sum=0;
+	cout<<"請輸入一個正整數:";
+	cin>>y;
+	
+	for(i=1;i<=y;i++)
+	{
+		if(i%3==0) 
+			continue; //跳過是3的倍數的數字 
+	    
+	    sum+=i;
+		cout<<"總和為:"<<sum;
+		cout<<endl; //換行 
+	}
+	return 0; 
+}
