@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int x,sum=0,k=1;
+	cout<<"請輸入一個正整數:";
+	cin>>x;
+	
+	while(k<=x)
+	{
+		if(k%2!=0) //找不能被2整除的數字 
+		  sum+=k;
+		  cout<<"奇數總和為:"<<sum;
+		  k++; //執行一次迴圈則加一
+		
+		cout<<'\n'; //換行 
+	}
+	return 0;
+}
