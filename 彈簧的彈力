@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	float k;
+	cout<<"請輸入彈簧常數:";
+	cin>>k;
+	
+	float x;
+	cout<<"請輸入彈簧的伸長量:";
+	cin>>x;
+	
+	double F;
+	F=k*x;
+	cout<<"彈簧彈力:"<<F<<'N';
+	
+	return 0;
+}
