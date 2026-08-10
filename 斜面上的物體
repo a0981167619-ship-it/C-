@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int m;
+	cout<<"請輸入物體的質量:";
+	cin>>m;
+	
+	double g=9.8; //重力量值
+	
+	float theta_sin,theta_cos;
+	cout<<"請輸入斜面角度sinθ:";
+	cin>>theta_sin;
+	
+	cout<<"請輸入斜面角度cosθ:";
+	cin>>theta_cos;
+	
+	float F;
+	F=m*g;
+	cout<<"物體的重力:"<<F<<'\n';
+	
+	float parallel;
+	parallel=m*g*theta_sin;
+	cout<<"沿斜面方向的重力分量:"<<parallel<<endl;
+	
+	float vertical;
+	vertical=m*g*theta_cos;
+	cout<<"垂直斜面的重力分量:"<<vertical<<'\n';
+	
+	double a;
+	a=g*theta_sin;
+	cout<<"物體沿斜面向下的加速度:"<<a;
+}
