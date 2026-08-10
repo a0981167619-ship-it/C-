@@ -30,4 +30,6 @@ int main()
 	double a;
 	a=g*theta_sin;
 	cout<<"物體沿斜面向下的加速度:"<<a;
+	
+	return 0;
 }
