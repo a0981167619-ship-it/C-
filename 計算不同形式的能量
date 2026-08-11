@@ -45,7 +45,7 @@ int main()
 		    W=F*d;
 		    cout<<"物體所做的W為:"<<W<<'J'<<endl;
 		
-		default:
+		default: //如果choice不等於ABC三個選項 
 			cout<<"選項錯誤";
 	    	
     }
