@@ -1,0 +1,55 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	char choice;
+	cout<<"(A)計算動能"<<endl;
+	cout<<"(B)計算重力位能"<<endl;
+	cout<<"(C)計算W"<<endl;  //W為功 
+	
+	cin>>choice;
+	
+	switch(choice)
+	{
+		case 'A':
+			float EK,m,v;
+			cout<<"請輸入質量(kg):";
+			cin>>m;
+			cout<<"請輸入速度(m/s):";
+			cin>>v;
+			EK=0.5*m*v*v;
+			cout<<"動能為:"<<EK<<'J'<<endl;
+			break;
+		
+		case 'B':
+			float M,h,g,E;  
+			g=9.8; //重力加速度為9.8
+			cout<<"請輸入質量(kg):";
+			cin>>M;
+			cout<<"請輸入高度(m):";
+			cin>>h;
+			
+			E=M*g*h;
+			cout<<"重力位能為:"<<E<<'J'<<'\n';
+			break;
+		
+		case 'C':
+		    float F,d;
+		    cout<<"請輸入力(F):";
+		    cin>>F;
+		
+		    cout<<"請輸入物體的位移(m):";
+		    cin>>d;
+		
+		    float W;
+		    W=F*d;
+		    cout<<"物體所做的W為:"<<W<<'J'<<endl;
+		
+		default:
+			cout<<"選項錯誤";
+	    	
+    }
+	
+	return 0;
+	
+}
