@@ -1,0 +1,35 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	double V,m;
+	cout<<"請輸入物體的體積:";
+	cin>>V;
+	
+	cout<<"請輸入物體的質量:";
+	cin>>m;
+	
+	int p;
+	p=1000;  //水的密度
+	
+	float g=9.8; //重力加速度
+	
+	double F,W;
+	F=p*V*g;
+	cout<<"物體的浮力為:"<<F<<'\n';
+	
+	W=m*g;
+	cout<<"物體的重量為:"<<W<<endl;
+	
+	if(F>W)
+	  cout<<"物體會上浮";
+	else if(F<W)
+	  cout<<"物體會下沉";
+	else
+	   cout<<"物體會懸浮";
+	   
+	return 0;
+	
+	
+	
+}
