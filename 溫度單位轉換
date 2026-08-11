@@ -27,5 +27,7 @@ int main()
 			cout<<"克氏溫度為:"<<K<<"K"<<'\n';
 		
 	}
+	if (selection!='A'||'B'||'C')
+	   cout<<"沒有此選項";
 	return 0;
 }
