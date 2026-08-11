@@ -28,6 +28,9 @@ int main()
 			K=T+273.15;
 			cout<<"克氏溫度為:"<<K<<"K"<<'\n';
 			break;
+		
+		default: //如果selection不等於ABC任何一個字母 
+			cout<<"選項錯誤";
 	}
 	return 0;
 }
