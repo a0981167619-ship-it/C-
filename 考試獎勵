@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int score;
+	cout<<"請輸入考試分數:";
+	cin>>score;
+	cout<<"最後獎勵金額:";
+	cout<<endl;
+	if (score>=90)
+	   cout<<"獎勵200元"<<endl;
+	if(score>=80)
+	   cout<<"獎勵100元"<<'\n';
+	if(score>=70)
+	   cout<<"獎勵50元"<<endl;
+	if(score<70)
+	   cout<<"沒有獎勵";
+	   
+	   
+	return 0;
+}
