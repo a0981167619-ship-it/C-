@@ -1,0 +1,53 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	char choose;
+	cout<<"(A) 計算電流 I"<<'\n';
+	cout<<"(B) 計算電壓 V"<<endl;
+	cout<<"(C) 計算電阻 R"<<'\n';
+	cin>>choose;
+	
+	switch(choose)
+	{
+		case 'A':
+			float V,R,I;
+			cout<<"請輸入電壓(V):";
+			cin>>V;
+			cout<<"請輸入電阻(R):";
+			cin>>R;
+			
+			I=V/R;
+			cout<<"電流為:"<<I<<'A'<<'\n';
+			break;
+			
+		case 'B':
+			float i,r,v;
+			cout<<"請輸入電阻(R):";
+			cin>>v;
+			cout<<"請輸入電流(I):";
+			cin>>i;
+			v=i*r; 
+			
+			cout<<"電壓為:"<<v<<'V'<<'\n';
+			break;
+			
+		case 'C':
+			float i1,v1,r1;
+			cout<<"請輸入電壓(V):";
+			cin>>v1;
+			cout<<"請輸入電流(I):";
+			cin>>i1;
+			
+			r1=v1/i1;
+			cout<<"電阻(R)為:"<<r1<<endl;
+			break;
+		
+		default: //若choose不等於ABC三個選項 
+		       cout<<"選項錯誤";
+			
+	}
+	return 0;
+	
+	
+}
