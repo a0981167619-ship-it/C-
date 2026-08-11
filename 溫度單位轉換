@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	float T;
+	cout<<"請輸入一個溫度數值:";
+	cin>>T;
+	char selection;
+	cout<<"(A)攝氏溫度轉換為華氏溫度:"<<endl;
+	cout<<"(B)華氏溫度轉換為攝氏溫度:"<<'\n';
+	cout<<"(C)攝氏溫度轉換為克耳文:"<<'\n';
+	cin>>selection;
+	
+	switch(selection)
+	{
+		case 'A':
+			int F;
+			F=(9.0/5)*T+32;
+			cout<<"華氏溫度為:"<<F<<"F"<<endl;
+		case 'B':
+			int C;
+			C=(5.0/9)*(T-32);
+			cout<<"攝氏溫度為:"<<C<<"C"<<endl;
+		case 'C':
+			int K;
+			K=T+273.15;
+			cout<<"克氏溫度為:"<<K<<"K"<<'\n';
+		
+	}
+	return 0;
+}
