@@ -17,17 +17,17 @@ int main()
 			int F;
 			F=(9.0/5)*T+32;
 			cout<<"華氏溫度為:"<<F<<"F"<<endl;
+			break;
 		case 'B':
 			int C;
 			C=(5.0/9)*(T-32);
 			cout<<"攝氏溫度為:"<<C<<"C"<<endl;
+			break;
 		case 'C':
 			int K;
 			K=T+273.15;
 			cout<<"克氏溫度為:"<<K<<"K"<<'\n';
-		
+			break;
 	}
-	if (selection!='A'||'B'||'C')
-	   cout<<"沒有此選項";
 	return 0;
 }
