@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	float a,b;
+	cout<<"請輸入矩形的長:";
+	cin>>a;
+	
+	cout<<"請輸入矩形的寬:";
+	cin>>b;
+	
+	double A; //計算矩形的面積
+	A=a*b;
+	cout<<"矩形的面積為:"<<A<<'\n';
+	
+	double P; //計算矩形的周長 
+	P=2*(a+b); 
+	cout<<"矩形的周長為:"<<P<<endl;
+	
+	float D; //計算矩形的對角線平方 
+	D=(a*a)+(b*b);
+	cout<<"矩形的對角線平方為:"<<D<<endl;
+	
+	if(A>P)
+	  cout<<"矩形的面積數值>周長"<<'\n';
+	if(A<P)
+	  cout<<"矩形的面積數值<周長"<<endl;
+	if(A==P)
+	  cout<<"矩形的面積數值=周長"<<'\n';
+	  
+	  return 0;
+}
