@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	double V,R,t;
+	cout<<"請輸入電熱器的電壓:";
+	cin>>V;
+	
+	cout<<"請輸入電阻:";
+	cin>>R;
+	
+	cout<<"請輸入通電時間:";
+	cin>>t;
+	
+	float P;
+	P=(V*V)/R;
+	cout<<"P為:"<<P<<'W'<<endl; //P代表電功率 
+	
+	float E;
+	E=P*t;
+	cout<<"E為:"<<E<<'J'<<'\n'; //E代表電能 
+	
+	if(E<10000)
+	  cout<<"產生的熱量較少";
+	else if(E>=10000 && E<50000)
+	  cout<<"產生的熱量普通";
+	else 
+	  cout<<"產生的熱量很多";
+	  
+	return 0;
+	
+}
