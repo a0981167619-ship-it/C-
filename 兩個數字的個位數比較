@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int a,b;
+	cout<<"請輸入a(兩位整數):";
+	cin>>a;
+	cout<<"請輸入b(兩位整數):";
+	cin>>b;
+	
+	int A,B;
+	A=a%10; //取出a的個位數
+	B=b%10; //取出b的個位數
+	
+	cout<<"a的個位數為:"<<A<<endl;
+	cout<<"b的個位數為:"<<B<<'\n';
+	
+	if(A>B)
+	 cout<<"a的個位數比較大"<<'\n'; 
+	else if(A<B)
+	 cout<<"b的個位數比較大"<<endl;
+	else
+	   cout<<"兩者相等";
+	   
+	return 0;
+	
+	
+	
+	
+}
