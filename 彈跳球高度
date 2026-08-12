@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int h,n;
+	cout<<"請輸入球所在的初始高度:";
+	cin>>h;
+	
+	cout<<"請輸入彈跳次數:";
+	cin>>n;
+	
+	int k;
+	for(k=1;k<=n;k++)
+	{
+		h=h*0.6; //每次彈起後,高度會變成前一次的60% 
+		cout<<"第"<<k<<"次彈跳:"<<h<<"m";
+		cout<<'\n';
+	}
+	return 0;
+}
