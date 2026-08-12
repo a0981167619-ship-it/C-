@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int N,h;
+	cout<<"請輸入初始的細菌數量:";
+	cin>>N;
+	
+	cout<<"請輸入經過的小時數:";
+	cin>>h;
+	
+	int a;
+	for(a=1;a<=h;a++)
+	{
+		N=N*1.5; //每經過1個小時,細菌數量會變成原本的1.5倍
+		cout<<"第"<<a<<"小時:"<<N<<"隻";
+		cout<<endl; 
+	}
+	return 0;
+}
