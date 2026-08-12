@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int score,i=0,sum=0;
+	while(score!=-1)
+	{
+		cout<<"請輸入成績:";
+		cin>>score;
+		sum=sum+score;
+		i++;	
+	}
+		cout<<"共有"<<i-1<<"筆成績"<<endl;
+		cout<<"總分:"<<sum+1<<'\n';
+		i=i-1;
+		cout<<"平均為:"<<sum/i;
+	return 0;
+}
