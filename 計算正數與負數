@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-	int n=0,N=0,i=1,x=1;  /*N代表正數的數量,n代表負數的數量*/ 
+	int n=0,N=0,x=1;  /*N代表正數的數量,n代表負數的數量*/ 
 	while(x!=0) //重複條件式 
 	{
 		cout<<"請輸入一個整數:";
