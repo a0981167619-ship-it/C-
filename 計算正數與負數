@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int n=0,N=0,i=1,x=1;  /*N代表正數的數量,n代表負數的數量*/ 
+	while(x!=0) //重複條件式 
+	{
+		cout<<"請輸入一個整數:";
+		cin>>x;
+		
+		if(x<0)
+		   n=n+1;
+		else if(x>0)
+		   N=N+1;
+	}
+	cout<<"正數共有"<<N<<"個"<<endl;
+	cout<<"負數共有"<<n<<"個";
+	
+	return 0;
+}
