@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int n;
+	while(n>=0)  //n小於0時,則停止迴圈 
+	{
+		cout<<"請輸入一個整數:";
+		cin>>n;
+		
+		if(n%2==0)
+		{
+			cout<<"發現偶數:"<<n<<'\n';
+			break;
+		}
+		else
+		    cout<<"這個數字是奇數"<<endl;
+	}
+	return 0;
+	
+}
