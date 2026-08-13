@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int number=5678,y;
+	do
+	{
+		cout<<"請輸入會員編號:";
+		cin>>y;
+		
+		if(y==number)
+		   cout<<"Welcome"<<'\n';
+		else
+		   cout<<"Error,請重新輸入"<<'\n';
+		   
+	}while(y!=number); //若輸入的數字不等於編號,就繼續要求輸入 
+	
+	return 0;
+}
