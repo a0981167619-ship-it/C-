@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int score,i=1,sum=0;
+	
+	while(i<=5) //i>5時,則停止執行
+	{
+		cout<<"請輸入第"<<i<<"次考試成績:"<<endl;
+		cin>>score;
+		i++;
+		
+		if(score<60)
+		continue;
+		
+		else
+		    sum+=score;
+		    
+    }
+    	cout<<"及格成績的總分為:"<<sum<<endl;
+		cout<<"及格成績的平均為:"<<(float)sum/5; //考試成績總共有5個  /*轉換資料型態*/ 
+    return 0;
+		
+		
+	 
+}
