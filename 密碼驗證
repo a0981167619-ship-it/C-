@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int code=1234,x;
+	
+	do
+	{  
+		cout<<"請輸入密碼:";
+		cin>>x;
+		
+		
+		if(x==code)
+		   cout<<"Success"; 
+		else
+		   cout<<"Error,請重新輸入"<<endl;
+		   
+		
+	}while(x!=1234);
+	
+	return 0;
+}
