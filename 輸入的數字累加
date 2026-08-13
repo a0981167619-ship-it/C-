@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int n,sum=0;
+	do
+	{
+		cout<<"請輸入一個正整數:";
+		cin>>n;
+		sum+=n;
+		
+	}while(n!=0);  //直到使用者輸入0時才停止 
+	
+	cout<<"輸入數字總和為:"<<sum;
+	return 0;
+}
