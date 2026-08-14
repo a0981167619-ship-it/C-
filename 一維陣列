@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int number[8]; //宣告一個整數陣列,其元素個數為8
+	
+	float array[5]; //宣告一個浮點數陣列,其元素個數為5 
+	
+	number[0]=256; //將此陣列索引值為0的元素值設為256 
+	number[7]=44;
+	
+	int total;
+	total=number[0]+number[7]; //將兩者相加
+	
+	cout<<total<<endl; //印出此結果
+	
+	array[2]=1.57;
+	array[3]=3.14;
+	
+	double A;
+	A=array[2]+array[3];
+	cout<<A;
+	
+	return 0;
+	 
+	 
+}
