@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int y,i=1;
+	cout<<"請輸入一個正整數:";
+	cin>>y;
+	
+	while(i<=y)
+	{
+		if(i%4==0)
+		{
+			i++;
+			continue; //跳過所有為4的倍數的數字 
+		}
+		cout<<"不為4的倍數的數字有:"<<i<<endl;
+		i++;
+	}
+	return 0;
+}
