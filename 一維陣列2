@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int number[5],number1[5];
+	
+	number[0]=number1[0];
+	
+	float n[7],n1[7];
+	n[6]=n1[5];
+	
+	int array[]={1,2,3,4,5,6,7,8,9}; //元素個數會自動設定為9
+	float array1[]={1.57,3.14,4.71,6.28}; //元素個數會自動設定為4
+	
+	
+	return 0; 
+}
