@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int a,b;
+	int theater[5][3]; //電影院裡有5排,每排3個座位
+	
+	for(a=0;a<5;a++) 
+	{
+		for(b=0;b<3;b++)
+		{
+			cout<<"請輸入第"<<a+1<<"排的座位:";
+			cin>>theater[a][b];
+		}
+	}
+	cout<<endl;
+	return 0;
+}
