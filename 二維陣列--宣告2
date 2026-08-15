@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int a[2][3]={0}; //陣列a中的所有元素值都被指定為0
+	
+	int A[2][2]={{1,2},{3}}; //指定初始值的個數少於陣列元素,未指定的元素將被設定為0
+	
+	double b[5][2]={{7.8,1.2},{7.0}};
+	
+	return 0;
+	 
+}
