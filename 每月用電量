@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int electric[3][4]; //三個月、每個月四週的用電量
+	int sum=0,i,j;
+	for (i=0;i<3;i++)
+	{
+		for(j=0;j<4;j++)
+		{
+			cout<<"請輸入第"<<i+1<<"個月的用電量:";
+			cin>>electric[i][j];
+			sum+=electric[i][j]; //加總用電量 
+			cout<<endl; //換行 
+		}
+	}
+	cout<<"總用電量:"<<sum;
+	return 0;
+	 
+}
