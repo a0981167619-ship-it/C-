@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int a[5]; //宣告一個可存放5個元素的陣列
+	int i;
+	int Max;
+	for (i=0;i<5;i++)
+	{
+		cout<<"請輸入5個整數:"<<endl;
+		cin>>a[i];
+	}
+	Max=a[0]; //設第一個為最大值
+	
+	for(i=0;i<5;i++)
+	{
+		if(a[i]>Max)
+		{
+			Max=a[i];
+		}
+	}
+	cout<<"在此陣列裡的最大值為:"<<Max<<'\n';
+	return 0;
+}
