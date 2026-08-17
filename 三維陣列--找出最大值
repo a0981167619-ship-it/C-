@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int array [2][3][3]={
+	                    {{15,28,9},
+	                     {100,54,6},
+	                     {146,258,745}
+	                     },
+	                     
+	                    {{120,450,896},
+	                     {4,1,2},
+						 {1080,1440,2160} //宣告三維陣列 
+					     }};
+	
+	int a,b,c,max=array[0][0][0]; //設定max為array陣列的第一個元素
+	
+	for(a=0;a<2;a++) 
+	   for(b=0;b<3;b++)
+	      for(c=0;c<3;c++) //利用三層for迴圈找出最大值 
+	      
+	      if(max<array[a][b][c])
+	         max=array[a][b][c];
+	         
+	cout<<"最大值為:"<<max<<'\n';
+	
+	return 0;
+	      
+}
