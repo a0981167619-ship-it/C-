@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int number[3][2][3]={
+	                    { {-80,4,5},
+	                      {-1000,3,30}
+						  },
+						  
+						{ {-5,148,147},
+						 {120,345,678}
+						 },
+						 
+						{ {988,3000,772},  //宣告三維陣列 
+						 {-1,-2,-3}
+					      },
+					      
+					    };
+	int i,j,k,min=number[0][0][0];  //設定min為number陣列的第一個元素
+	
+	for(i=0;i<3;i++) 
+	   for(j=0;j<2;j++)
+	     for(k=0;k<3;k++)
+	         if(min>number[i][j][k])
+	            min=number[i][j][k];
+    
+    cout<<"最小值為:"<<min<<endl;
+    
+    return 0;
+}
