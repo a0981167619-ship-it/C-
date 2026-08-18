@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	char word[4][6]={
+		             "cat",
+		             "can",
+		             "ant",
+		             "eat"
+		        };
+		             
+	cout<<"索引第2個字元:"<<word[2]<<endl;
+	cout<<"第二個字元的第0個字母為:"<<word[2][0]<<'\n';
+	
+	
+	char b[2][15]={
+		          "different",
+		          "difference"
+	};
+	cout<<"索引第0個字元:"<<b[0]<<endl;
+	cout<<"索引第一個字元的第7個字母為:"<<b[1][7];
+	return 0;
+					 
+	
+}
