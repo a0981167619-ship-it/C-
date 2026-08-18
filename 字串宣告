@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	char a[5]="king";
+	char a2[5]={'k','i','n','g','\0'}; // '\0'為字串結束字元
+	char a3[]="king";
+	char a4[]={'k','i','n','g','\n'};
+	char a5[]={'k','i','n','g','\0'};
+	
+	return 0;
+}
