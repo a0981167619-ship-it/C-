@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	char x[5][15]={ "slaughter",
+	               "kill",
+	               "negative",
+	               "minus",
+	               "disgusting"
+	             };
+	int i;
+	for (i=0;i<5;i++)
+	     cout<<x[i]<<endl; //利用for迴圈印出所有的字串
+	return 0; 
+	        
+	             	
+				 
+}
