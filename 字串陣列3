@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	char type[4][20]={
+	                  "elephant",
+	                  " butterfly",
+					  "worm",
+					  "bee" 
+					  };
+	
+		cout<<"索引為2的字串:"<<type[2]<<endl;
+	    cout<<"索引為1的字串中,索引為5的字元:"<<type[1][5]<<'\n';
+	    cout<<"索引為0的字串中,索引為7的字元:"<<type[0][7];
+	    
+	return 0;
+}
