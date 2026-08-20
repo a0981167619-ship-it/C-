@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int a,cum;
+	int number[6]={12,25,8,31,17,6};
+	
+	for(a=0;a<3;a++)
+	{
+		cum=number[a]; //把陣列的內容,存在cum中
+		number[a]=number[5-a]; //反轉
+		number[5-a]=cum;
+	}
+	
+	for(a=0;a<6;a++)
+	{
+		cout<<"反轉後的陣列為:"<<number[a]<<endl;
+	}
