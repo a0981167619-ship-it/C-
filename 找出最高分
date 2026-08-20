@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int score[8]={72,85,91,68,77,95,83,60};
+	int i,high;
+	
+	for(i=0;i<8;i++)
+	{   
+	    score[0]=high;
+	    
+		if(score[i]>high)
+		{
+			high=score[i];
+		} 
+	}
+	cout<<"最高分為:"<<high<<"分";
+	return 0;
+}
