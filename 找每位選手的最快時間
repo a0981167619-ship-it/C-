@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int time[4][3]={
+	         {15,13,16},
+	         {18,14,17},
+	         {12,15,11},
+	         {20,19,21}
+			 };
+			 
+	int a,b,minimum;
+	for(a=0;a<4;a++)
+	{
+		minimum=time[a][0];  
+		for(b=0;b<3;b++)
+		{
+			if(time[a][b]<minimum)
+			{
+				minimum=time[a][b];
+				cout<<"選手"<<a+1<<"的最快時間為:"<<minimum<<endl;
+			}
+		}
+		
+	}
+	return 0;
+}
