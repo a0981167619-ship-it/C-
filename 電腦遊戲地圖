@@ -1,0 +1,47 @@
+#include <iostream>
+using namespace std;
+int main()
+{   
+    //草地:0  水池:1  山:2 
+	 
+	int map[2][3][4]={
+		             {
+	                  {0,1,0,2},
+	                  {2,0,1,0},
+	                  {0,2,2,1}
+	                 },
+	                  
+					  {
+					   {1,0,2,0},
+					   {0,1,1,2},
+					   {2,0,0,1}
+				      },
+			         };
+	int i,j,k,sum=0,total,sum2=0;
+	for(i=0;i<2;i++)
+	{
+		for(j=0;j<3;j++)
+		{
+			for(k=0;k<4;k++)
+			{
+				if(map[i][j][k]==0)
+				{
+					sum++;
+			   }
+			   else if(map[i][j][k]==1)
+			   {
+			   	    total++;
+			   }
+			   else
+			       sum2++;
+			   
+				  
+			}
+		}
+	}
+	cout<<"草地:"<<sum<<"個"<<endl;
+	cout<<"水池:"<<total<<"個"<<'\n';
+	cout<<"山:"<<sum2<<"座"<<endl;
+	return 0;
+					  
+					  
