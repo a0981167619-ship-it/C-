@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	char food[4][15]={
+		               "pizza",
+		               "hamburger",
+		               "noodles",
+		               "rice"
+		           };
+	
+	int a;
+	for(a=0;a<4;a++)
+	{
+		cout<<"此陣列中的4種食物為:"<<food[a]<<endl;
+	}
+	return 0;
+	
+}
