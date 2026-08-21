@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	char student[5][20]={
+		                 "Amy",
+						 "Ben",
+						 "Cindy",
+						 "David",
+						 "Eric",
+					};
+	int i;
+	for(i=0;i<5;i++)
+	cout<<"陣列中5位學生的姓名為:"<<student[i]<<endl;
+	return 0;
+	                    
+						
+}
