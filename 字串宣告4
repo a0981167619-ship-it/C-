@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	char adj1[10]="peculiar";
+	char adj2[10]="special";
+	
+	int i,j;
+	
+	for(i=0;i<8;i++)
+	cout<<"第一個字串為:"<<adj1[i]<<endl;;
+	
+	cout<<"----------------------------------------------------"<<endl;  //分割線 
+	for(j=0;j<7;j++)
+	cout<<"第二個字串為:"<<adj2[j]<<'\n';
+	
+	return 0;
+}
